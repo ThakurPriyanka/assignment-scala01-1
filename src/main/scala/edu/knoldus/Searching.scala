@@ -24,10 +24,10 @@ class Searching {
     if (output == -1) {
       false
     }
-//    else {
-//      true
-//    }
-    true
+    else {
+      true
+    }
+    //true
   }
 
   def linearSearch(array: Array[Int], elem: Int): Boolean = {
