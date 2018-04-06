@@ -3,11 +3,10 @@ package edu.knoldus
 class Searching {
   def binarySearchMine(array: Array[Int], elem: Int, start: Int = 0, end: Int): Int = {
     if (start > end){
-      return -1
+       -1
     }
     val mid = start + (end - start + 1 ) / 2
     if (array(mid) == elem) {
-
       mid
     }
     else if (array(mid) > elem) {
