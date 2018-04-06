@@ -16,7 +16,7 @@ class Searching {
       binarySearchMine(array, elem, mid + 1, end)
     }
   }
-  def binarySearch(array: Array[Int], elem: Int): Boolean = {
+/*  def binarySearch(array: Array[Int], elem: Int): Boolean = {
     val output = binarySearchMine(array, elem, 0, array.length-1)
 
     if (output == -1) {
@@ -25,7 +25,7 @@ class Searching {
     else {
       true
     }
-  }
+  }*/
 
   def linearSearch(array: Array[Int], elem: Int): Boolean = {
     var index = -1
